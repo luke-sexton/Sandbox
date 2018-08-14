@@ -1,6 +1,8 @@
-'''Luke Sexton'''
+"""Luke Sexton"""
+
 
 def main():
+
     valid_password = password_checker()
     while valid_password is False:
         print("Invalid.")
@@ -11,6 +13,7 @@ def main():
 
 
 def password_checker():
+
     length_min = 5
 
     user_password = input("Please enter a password with 6 or more characters: ")
